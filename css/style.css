@@ -2,3 +2,18 @@ body {
     background-color: hsl(0, 100%, 74%) ;
     background-image: url("../images/bg-intro-desktop.png");
 }
+
+
+.text {
+    font-weight: bolder;
+}
+
+.trial-text {
+    color: whitesmoke;
+    background-color: hsl(248, 32%, 49%);
+    padding: 20px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
