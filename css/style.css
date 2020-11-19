@@ -1,11 +1,14 @@
 body {
   background-color: hsl(0, 100%, 74%);
   background-image: url("../images/bg-intro-desktop.png");
+  /* font-family: 'Poppins', sans-serif; */
 }
 
-.text {
-  font-weight: bolder;
+p {
+    font-size: 1rem;
 }
+
+
 
 .trial-text {
   color: whitesmoke;
@@ -18,6 +21,7 @@ body {
 }
 
 .form {
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   background-color: whitesmoke;
   border: solid snow 5px;
@@ -31,17 +35,24 @@ body {
   width: 90%;
   padding: 15px;
   margin: 5px;
-  /* border: lightslategray; */
+  border: solid lightgrey;
 }
 
 .btn {
-    color: snow;
-    background-color: hsl(154, 59%, 51%);
-    font-weight: bolder;
-    border:  hsl(154, 59%, 51%);
-    border-radius: 5px;
-    padding: 15px;
-    margin-top: 2%;
-    /* padding: 20px; */
-    width: 98%; 
+  color: snow;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: bolder;
+  border: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 2%;
+  width: 98%;
+}
+
+.terms {
+    text-align: center;
+}
+
+.services {
+    color: red;
 }
